@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#142b3b">
+<title>بارماجماعت سنگین سوار | نسخه نمایشی</title>
+<style>
+:root{--navy:#142b3b;--navy2:#1d3b4e;--gold:#f2b544;--ink:#17232d;--muted:#647482;--bg:#f3f6f8;--line:#e2e8ed;--white:#fff;--green:#16865b;--red:#c94b4b}
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8}
+button,input,select,textarea{font:inherit}button{cursor:pointer}
+header{background:linear-gradient(120deg,var(--navy),#24495d);color:#fff;padding:18px 5vw 34px}
+.top{max-width:1180px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:19px}
+.logo{width:46px;height:46px;border-radius:14px;background:var(--gold);display:grid;place-items:center;color:var(--navy);font-size:25px}
+nav{display:flex;gap:8px;flex-wrap:wrap}nav button,.ghost{border:1px solid #ffffff50;background:#ffffff12;color:#fff;padding:8px 13px;border-radius:10px}
+.hero{max-width:1180px;margin:34px auto 0;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(27px,4vw,44px);line-height:1.45;margin:0 0 10px}.hero p{color:#d4e0e8;margin:0 0 20px}
+.primary{background:var(--gold);color:#263746;border:0;border-radius:11px;padding:11px 18px;font-weight:800}
+.secondary{background:var(--navy);color:#fff;border:0;border-radius:10px;padding:10px 15px}
+.hero-card{background:#ffffff12;border:1px solid #ffffff30;border-radius:20px;padding:22px}
+.hero-card strong{font-size:32px;color:var(--gold);display:block}
+main{max-width:1180px;margin:-14px auto 50px;padding:0 18px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:22px}
+.stat,.panel,.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+.stat small,.muted{color:var(--muted)}.stat b{display:block;font-size:25px;color:var(--navy)}
+.layout{display:grid;grid-template-columns:250px 1fr;gap:18px}
+aside{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;height:max-content}
+.sidebtn{width:100%;text-align:right;background:transparent;border:0;padding:11px 12px;border-radius:10px;color:#344654}
+.sidebtn.active,.sidebtn:hover{background:#edf3f6;color:var(--navy);font-weight:bold}
+.content{min-width:0}.section-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px}
+h2{font-size:22px;margin:0}h3{font-size:17px;margin:0 0 7px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.load{border:1px solid var(--line);border-radius:14px;padding:16px;background:#fff}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0}
+.tag{font-size:12px;padding:3px 9px;border-radius:20px;background:#edf3f6;color:#375166}
+.price{font-size:20px;font-weight:bold;color:var(--navy)}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.smallbtn{border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 11px}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}
+label{font-size:13px;font-weight:bold;color:#405260}
+input,select,textarea{border:1px solid #d5dfe6;border-radius:10px;padding:10px 11px;background:#fff;min-width:0}
+textarea{min-height:80px;resize:vertical}
+.notice{background:#fff8e8;border:1px solid #f2dfb6;color:#74531b;border-radius:12px;padding:12px;margin:12px 0;font-size:13px}
+.hidden{display:none!important}
+.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:540px}th,td{text-align:right;padding:11px;border-bottom:1px solid var(--line);font-size:13px}th{color:var(--muted);background:#f8fafb}
+.badge{display:inline-block;background:#eaf6f0;color:var(--green);padding:2px 9px;border-radius:20px;font-size:12px}
+footer{text-align:center;color:var(--muted);padding:24px;font-size:12px}
+.modalback{position:fixed;inset:0;background:#07131dcc;display:grid;place-items:center;padding:16px;z-index:5}
+.modal{background:#fff;border-radius:18px;padding:22px;max-width:440px;width:100%}
+@media(max-width:760px){.hero{grid-template-columns:1fr;margin-top:25px}.hero-card{display:none}.layout{grid-template-columns:1fr}aside{display:flex;overflow:auto;gap:5px;padding:8px}.sidebtn{white-space:nowrap;width:auto}.stats{grid-template-columns:repeat(3,1fr);gap:7px}.stat{padding:11px}.stat b{font-size:19px}.grid{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}nav{width:100%}nav button{flex:1}form{grid-template-columns:1fr}.field.full{grid-column:auto}}
+</style>
+</head>
+<body>
+<header>
+ <div class="top">
+  <div class="brand"><div class="logo">🚛</div><div>بارماجماعت<br><span style="color:#f2b544">سنگین سوار</span></div></div>
+  <nav><button onclick="showPage('loads')">مشاهده بارها</button><button onclick="showPage('post')">ثبت بار</button><button onclick="showPage('driver')">پنل راننده</button><button onclick="showPage('owner')">پنل صاحب بار</button></nav>
+ </div>
+ <div class="hero">
+  <div><h1>بار مناسب، راننده مطمئن؛<br>یک مسیر روشن برای حمل بار</h1><p>سامانه ارتباط صاحبان بار و رانندگان خودروهای سنگین، با توافق شفاف و کمیسیون مشخص.</p><button class="primary" onclick="showPage('loads')">دیدن بارهای ثبت‌شده</button></div>
+  <div class="hero-card"><strong>۱٪</strong><b>مجموع کمیسیون معامله</b><p style="color:#d4e0e8;margin-bottom:0">۰٫۵٪ سهم صاحب بار + ۰٫۵٪ سهم راننده، پس از توافق کرایه</p></div>
+ </div>
+</header>
+<main>
+ <div class="stats">
+  <div class="stat"><small>بارهای نمونه فعال</small><b id="loadCount">۳</b></div>
+  <div class="stat"><small>کمیسیون هر طرف</small><b>۰٫۵٪</b></div>
+  <div class="stat"><small>وضعیت سامانه</small><b style="font-size:17px">نسخه نمایشی</b></div>
+ </div>
+ <div class="layout">
+  <aside>
+   <button class="sidebtn active" data-page="loads" onclick="showPage('loads')">🔎 بارهای موجود</button>
+   <button class="sidebtn" data-page="post" onclick="showPage('post')">＋ ثبت بار (صاحب بار)</button>
+   <button class="sidebtn" data-page="driver" onclick="showPage('driver')">🚚 پنل راننده</button>
+   <button class="sidebtn" data-page="owner" onclick="showPage('owner')">📦 پنل صاحب بار</button>
+   <button class="sidebtn" data-page="admin" onclick="showPage('admin')">⚙ مدیریت</button>
+  </aside>
+  <section class="content">
+   <div id="page-loads">
+    <div class="section-head"><div><h2>بارهای قابل درخواست</h2><div class="muted">راننده فقط برای بار مشخص درخواست حمل می‌فرستد.</div></div><input id="search" placeholder="جست‌وجوی مبدأ یا مقصد" oninput="renderLoads()" style="max-width:220px"></div>
+    <div class="grid" id="loads"></div>
+   </div>
+   <div id="page-post" class="panel hidden">
+    <div class="section-head"><div><h2>ثبت بار جدید</h2><div class="muted">این بخش فقط برای صاحب کالا یا شرکت باربری است.</div></div></div>
+    <form id="postForm">
+     <div class="field"><label>نام شرکت / صاحب بار</label><input required placeholder="نام مجموعه یا شخص"></div>
+     <div class="field"><label>شماره تماس</label><input required inputmode="tel" placeholder="09xxxxxxxxx"></div>
+     <div class="field"><label>مبدأ بار</label><input required placeholder="مثلاً بندرعباس"></div>
+     <div class="field"><label>مقصد بار</label><input required placeholder="مثلاً تهران"></div>
+     <div class="field"><label>نوع بار</label><input required placeholder="مثلاً سیمان، آهن، مواد غذایی"></div>
+     <div class="field"><label>نوع خودرو</label><select><option>تریلی</option><option>کامیون تک</option><option>کامیون جفت</option><option>کمپرسی</option><option>کفی</option><option>یخچالی</option><option>مخزن‌دار</option></select></div>
+     <div class="field"><label>وزن تقریبی (تن)</label><input type="number" min="1" required placeholder="مثلاً ۲۴"></div>
+     <div class="field"><label>کرایه پیشنهادی (تومان)</label><input type="number" min="0" placeholder="قابل مذاکره"></div>
+     <div class="field full"><label>توضیحات بار</label><textarea placeholder="زمان بارگیری، شرایط بار و توضیحات لازم"></textarea></div>
+     <div class="field full"><button class="primary" type="submit">ثبت نمایشی بار</button></div>
+    </form>
+    <div class="notice">نسخه نمایشی: اطلاعات فرم فقط در همین مرورگر نگهداری می‌شود و هنوز به سرور یا پنل واقعی متصل نیست.</div>
+   </div>
+   <div id="page-driver" class="panel hidden">
+    <h2>پنل راننده</h2><p class="muted">راننده می‌تواند بارها را ببیند و برای هر بار مشخص درخواست بفرستد؛ امکان ثبت آگهی بار یا اعلام آمادگی عمومی وجود ندارد.</p>
+    <div class="notice">برای نسخه عملیاتی، ورود با شماره موبایل و احراز هویت راننده و مدارک خودرو باید به سرور متصل شود.</div>
+    <div id="driverRequests">هنوز درخواستی در این نشست ثبت نشده است.</div>
+   </div>
+   <div id="page-owner" class="panel hidden">
+    <h2>پنل صاحب بار</h2><p class="muted">مدیریت بارهای ثبت‌شده و بررسی درخواست‌های رانندگان.</p>
+    <div id="ownerLoads"></div>
+   </div>
+   <div id="page-admin" class="panel hidden">
+    <h2>پنل مدیریت سامانه</h2><p class="muted">نمای کلی برای مدیر سایت.</p>
+    <div class="grid">
+     <div class="load"><small class="muted">تعداد بارهای نمایشی</small><div class="price" id="adminLoadCount">۳</div></div>
+     <div class="load"><small class="muted">درخواست‌های ثبت‌شده در این نشست</small><div class="price" id="requestCount">۰</div></div>
+    </div>
+    <div class="notice">پنل مدیریت واقعی باید با حساب مدیر، سطح دسترسی امن، گزارش پرداخت‌ها، مدیریت کاربران و ثبت رویدادها پیاده‌سازی شود. این صفحه در حال حاضر فقط نمایشی است.</div>
+   </div>
+  </section>
+ </div>
+</main>
+<footer>بارماجماعت سنگین سوار · نسخه نمایشی اولیه · sanginsavar.ir (دامنه هنوز خریداری و تأیید نشده)</footer>
+<div id="modal" class="modalback hidden" onclick="if(event.target===this)closeModal()"><div class="modal"><div class="section-head"><h3>ارسال درخواست حمل</h3><button class="smallbtn" onclick="closeModal()">✕</button></div><div id="modalInfo" class="muted"></div><div class="field"><label>نام راننده</label><input id="driverName" placeholder="نام و نام خانوادگی"></div><div class="field"><label>شماره تماس</label><input id="driverPhone" inputmode="tel" placeholder="09xxxxxxxxx"></div><div class="field"><label>پیشنهاد کرایه (تومان)</label><input id="driverPrice" type="number" min="0" placeholder="مبلغ پیشنهادی"></div><button class="primary" style="width:100%;margin-top:14px" onclick="sendRequest()">ثبت درخواست نمایشی</button><p class="muted" style="font-size:12px">ارسال درخواست به معنی توافق نهایی یا آزاد شدن شماره تماس نیست.</p></div></div>
+<script>
+const sample=[
+{id:1,from:"بندرعباس",to:"اصفهان",cargo:"ورق فولادی",vehicle:"کفی",weight:"۲۴",price:"قابل مذاکره",owner:"شرکت نمونه جنوب"},
+{id:2,from:"بندرعباس",to:"تهران",cargo:"مواد غذایی بسته‌بندی",vehicle:"یخچالی",weight:"۱۸",price:"۴۸٬۰۰۰٬۰۰۰",owner:"باربری نمونه"},
+{id:3,from:"سیرجان",to:"بندرعباس",cargo:"سنگ معدنی",vehicle:"کمپرسی",weight:"۲۵",price:"۳۲٬۰۰۰٬۰۰۰",owner:"صاحب بار نمونه"}
+];
+let loads=[...sample],requests=[],selected=null;
+function renderLoads(){let q=(document.getElementById('search')?.value||'').trim();let data=loads.filter(x=>(x.from+x.to+x.cargo).includes(q));document.getElementById('loads').innerHTML=data.map(x=>`<article class="load"><div class="section-head"><h3>${x.from} ← ${x.to}</h3><span class="badge">فعال</span></div><div class="tags"><span class="tag">${x.vehicle}</span><span class="tag">${x.weight} تن</span><span class="tag">${x.cargo}</span></div><p class="muted">صاحب بار: ${x.owner}</p><div class="price">${x.price==='قابل مذاکره'?x.price:x.price+' تومان'}</div><div class="actions"><button class="secondary" onclick="openRequest(${x.id})">درخواست حمل این بار</button></div></article>`).join('')||'<p class="muted">باری با این مشخصات پیدا نشد.</p>';document.getElementById('loadCount').textContent=loads.length.toLocaleString('fa-IR');document.getElementById('adminLoadCount').textContent=loads.length.toLocaleString('fa-IR')}
+function showPage(p){document.querySelectorAll('[id^="page-"]').forEach(e=>e.classList.add('hidden'));document.getElementById('page-'+p).classList.remove('hidden');document.querySelectorAll('.sidebtn').forEach(b=>b.classList.toggle('active',b.dataset.page===p));if(p==='owner')renderOwner();if(p==='driver')renderDriver();if(p==='admin')document.getElementById('requestCount').textContent=requests.length.toLocaleString('fa-IR')}
+function openRequest(id){selected=loads.find(x=>x.id===id);document.getElementById('modalInfo').textContent=`درخواست برای بار ${selected.from} به ${selected.to} · ${selected.cargo}`;document.getElementById('modal').classList.remove('hidden')}
+function closeModal(){document.getElementById('modal').classList.add('hidden')}
+function sendRequest(){let n=document.getElementById('driverName').value.trim(),p=document.getElementById('driverPhone').value.trim(),v=document.getElementById('driverPrice').value;if(!n||!p||!v){alert('لطفاً نام، شماره تماس و پیشنهاد کرایه را وارد کنید.');return}requests.push({load:selected,driver:n,phone:p,price:Number(v)});closeModal();alert('درخواست نمایشی ثبت شد. در نسخه واقعی، صاحب بار پس از بررسی می‌تواند پیشنهاد را بپذیرد یا مذاکره کند.');showPage('driver')}
+document.getElementById('postForm').addEventListener('submit',e=>{e.preventDefault();let f=[...e.target.querySelectorAll('input,select,textarea')];loads.unshift({id:Date.now(),owner:f[0].value,phone:f[1].value,from:f[2].value,to:f[3].value,cargo:f[4].value,vehicle:f[5].value,weight:f[6].value,price:f[7].value?Number(f[7].value).toLocaleString('fa-IR'):'قابل مذاکره'});e.target.reset();renderLoads();alert('بار به‌صورت نمایشی به فهرست اضافه شد.');showPage('loads')});
+function renderDriver(){document.getElementById('driverRequests').innerHTML=requests.length?requests.map(r=>`<div class="load" style="margin-top:10px"><b>${r.load.from} ← ${r.load.to}</b><p>پیشنهاد شما: ${r.price.toLocaleString('fa-IR')} تومان</p><span class="tag">در انتظار بررسی صاحب بار (نمایشی)</span></div>`).join(''):'هنوز درخواستی در این نشست ثبت نشده است.'}
+function renderOwner(){document.getElementById('ownerLoads').innerHTML=loads.map(l=>`<div class="load" style="margin-top:10px"><b>${l.from} ← ${l.to}</b><p class="muted">${l.cargo} · ${l.vehicle}</p><span class="tag">${requests.filter(r=>r.load.id===l.id).length.toLocaleString('fa-IR')} درخواست</span></div>`).join('')}
+renderLoads();
+</script>
+</body></html>
